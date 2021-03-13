@@ -9,7 +9,9 @@
   "author": "Lawrence Katuva",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "http-errors": "^1.8.0",
     "mongoose": "^5.12.0"
   }
 }

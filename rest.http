@@ -1,13 +1,27 @@
 ###
-GET http://localhost:3000/products
+ GET http://localhost:3000/products
+
+
+
+###
+GET http://localhost:3000/products/604bc820cc899e1340d349d88
+
+
 
 ###
 POST http://localhost:3000/products
 Content-Type: application/json
 
 {
-    "name": "Iphone 11",
-    "price": 699
+    "name": "Oppo A37",
+    "price": 131
 }
 
 ###
+PATCH  http://localhost:3000/products/604bc820cc899e1340d349d8
+Content-Type: application/json
+
+{
+    "name": "Imac Apple Pro",
+    "price": 199
+}
